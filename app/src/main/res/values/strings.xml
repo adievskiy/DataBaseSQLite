@@ -11,4 +11,7 @@
     <string name="textPositionHeaderTV">Должность</string>
     <string name="textPhoneHeaderTV">Телефон</string>
     <string name="textNameHeaderTV">Имя</string>
+    <string name="textNameTV">\n\n</string>
+    <string name="textPhoneTV">\n\n</string>
+    <string name="textPositionTV">\n\n</string>
 </resources>

@@ -10,13 +10,13 @@ class DBHelper(context: Context, factory: SQLiteDatabase.CursorFactory?) :
     SQLiteOpenHelper(context, DATABASE_NAME, factory, DATABASE_VERSION) {
 
     companion object {
-        private val DATABASE_NAME = "EMPLOYEE_DATABASE"
-        private val DATABASE_VERSION = 1
-        val TABLE_NAME = "employee_table"
-        val KEY_ID = "id"
-        val KEY_NAME = "name"
-        val KEY_PHONE = "phone"
-        val KEY_POSITION = "position"
+        private const val DATABASE_NAME = "EMPLOYEE_DATABASE"
+        private const val DATABASE_VERSION = 1
+        const val TABLE_NAME = "employee_table"
+        const val KEY_ID = "id"
+        const val KEY_NAME = "name"
+        const val KEY_PHONE = "phone"
+        const val KEY_POSITION = "position"
     }
 
     override fun onCreate(db: SQLiteDatabase) {

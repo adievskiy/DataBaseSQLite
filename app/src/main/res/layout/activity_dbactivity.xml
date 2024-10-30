@@ -23,14 +23,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/hintNameET"
-                android:layout_margin="5dp"/>
+                android:layout_margin="5dp"
+                tools:ignore="Autofill,TextFields" />
 
             <EditText
                 android:id="@+id/phoneET"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/hintPhoneET"
-                android:layout_margin="5dp"/>
+                android:layout_margin="5dp"
+                tools:ignore="Autofill,TextFields" />
 
             <Spinner
                 android:id="@+id/positionSPNR"
@@ -124,7 +126,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="\n\n"
+            android:text="@string/textNameTV"
             android:layout_margin="5dp"/>
 
         <TextView
@@ -132,7 +134,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="\n\n"
+            android:text="@string/textPhoneTV"
             android:layout_margin="5dp"/>
 
         <TextView
@@ -140,7 +142,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="\n\n"
+            android:text="@string/textPositionTV"
             android:layout_margin="5dp"/>
 
     </LinearLayout>
