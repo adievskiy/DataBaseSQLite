@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DataBaseSQLite</string>
+    <string name="textStartBTN">Начать</string>
+    <string name="titleExitMenu">Выход</string>
+    <string name="hintNameET">Введите имя</string>
+    <string name="hintPhoneET">Введите телефон</string>
+    <string name="hintAgeET">Введите возраст</string>
+    <string name="textSaveBTN">Сохранить</string>
+    <string name="textLoadBTN">Загрузить</string>
+    <string name="textEraseBTN">Стереть</string>
+    <string name="textPositionHeaderTV">Должность</string>
+    <string name="textPhoneHeaderTV">Телефон</string>
+    <string name="textNameHeaderTV">Имя</string>
+</resources>
